@@ -1,0 +1,56 @@
+.Header_Div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .Header_Div h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 0;
+  }
+
+  #Search_Bar {
+    flex: 1;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 15px; 
+  }
+  
+  #Search_Bar:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3); 
+  }
+  
+
+  .button_grp {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  
+  .button_grp button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+  }
+  
+  .button_grp button:hover {
+    background-color: #0056b3; 
+  }
